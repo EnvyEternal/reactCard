@@ -1,25 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import ava from './modules/ava.jpg';
+import Card from './modules/index.js'
 
+const user1 = {
+  name: "Tommy Vercetti",
+  tagline: "@Vercetti",
+  imgSrc: ava,
+  fol: "400",
+  post: "2000"
+}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Card user={user1}/>
   );
 }
+
+
 
 export default App;
