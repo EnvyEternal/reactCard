@@ -8,7 +8,7 @@ const user1 = {
   tagline: "@Vercetti",
   imgSrc: ava,
   fol: "400",
-  post: "2000"
+  post: "18"
 }
 function App() {
   return (
